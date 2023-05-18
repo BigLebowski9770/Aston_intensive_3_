@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Aston_intensive_3</string>
+    <string name="austria">Austria</string>
+    <string name="poland">Poland</string>
+    <string name="italy">Italy</string>
+    <string name="colombia">Colombia</string>
+    <string name="madagascar">Madagascar</string>
+    <string name="thailand">Thailand</string>
+    <string name="denmark">Denmark</string>
+    <string name="switzerland">Switzerland</string>
+    <string name="next_step">Next Step</string>
+    <string name="input_your_link">Input your link</string>
+    <string name="search_image">Search image</string>
+</resources>

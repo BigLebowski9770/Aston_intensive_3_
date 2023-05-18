@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-264dp">
+
+        <LinearLayout
+            android:id="@+id/parent_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/backForMain"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="32dp">
+
+
+            <LinearLayout
+                android:id="@+id/austria_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/austria"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/austria" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/poland_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/poland"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/poland" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/italy_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/italy"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/italy" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/colombia_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/colombia"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/columbia" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/madagascar_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/madagascar"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/madagascar" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tai_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/thailand"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/thai" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dania_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/denmark"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/denmark" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/swiss_linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="64dp"
+                android:gravity="center_horizontal"
+                app:layout_constraintBottom_toBottomOf="@+id/parent_linear"
+                app:layout_constraintEnd_toEndOf="@+id/parent_linear"
+                app:layout_constraintStart_toStartOf="@+id/parent_linear"
+                app:layout_constraintTop_toTopOf="@+id/parent_linear">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginEnd="32dp"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-black"
+                    android:text="@string/switzerland"
+                    android:textSize="24sp" />
+
+                <View
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/swiss" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/button_next_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/next_step"
+        app:layout_constraintBottom_toBottomOf="@+id/nestedScrollView"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
